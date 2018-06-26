@@ -1,0 +1,39 @@
+ * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2em;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+
+.bg-greensemi {
+    background-color: #689f38;
+}
+
+.carousel .carousel-item img {
+    background-attachment: fixed;
+    object-fit: cover;
+    max-height: 600px;
+    min-width: auto;
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: solid #689f38 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 30px 60px 0;
+}
+
+#scroll-to-top a i {
+    font-size: 24px;
+    line-height: 50px;
+}
